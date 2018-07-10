@@ -5,9 +5,13 @@ var edad;
 var estadoCivil;
 
 edad=document.getElementById("edad").value; 
-estadoCivil.getElementById("estadoCivil").value;
+estadoCivil=document.getElementById("estadoCivil").value;
 
-if(edad >17 && estadoCivil == "soltero");
+edad=parseInt(edad);
+
+if(edad < 18 && estadoCivil !="soltero"){
+     alert ("usted es muy joven para NO estar soltero");
+}
 	
 
 

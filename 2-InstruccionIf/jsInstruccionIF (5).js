@@ -2,9 +2,11 @@ function mostrar()
 {
 //tomo la edad  
 var edad;
-edad=prompt(edad);
 
-if(edad <=13 || edad >=17 ){
+edad=document.getElementById("edad").value;
+edad=parseInt(edad);
+
+if(edad <=13 || edad >=18 ){
 
 alert(" usted no es adolecente");
 }
