@@ -3,7 +3,7 @@ function mostrar()
 {
     var base;
     var altura;
-    var area;
+    var superficie;
     var perimetro;
 
     base=prompt(" ingrese base de un triangulo ");
@@ -11,9 +11,11 @@ function mostrar()
 
     base=parseInt(base);
     altura=parseInt(altura);
+
+    superficie=(base*altura)/2;
     perimetro=base*3;
-    superficie=(base*altura)/3;
-    alert
+    alert("La superficie es " + superficie + " y el perimetro es " + perimetro);
+    
 
 
 
