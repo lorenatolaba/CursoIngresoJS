@@ -14,16 +14,19 @@ function comenzar()
 }//FIN DE LA FUNCIÓN
 function piedra()
 {
+    console.log("piedra")
 	
 
 }//FIN DE LA FUNCIÓN
 function papel()
 {
+    console.log("papel")
 
 
 }//FIN DE LA FUNCIÓN
 function tijera()
 {
+    console.log("tijera")
 	
 
 }//FIN DE LA FUNCIÓN
