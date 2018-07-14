@@ -8,8 +8,11 @@ edad=document.getElementById("edad").value;
 if(edad == "15"){
 
 
-alert("niña bonita")};
+alert("Niña bonita")}
+else
+{ alert("no hay fiesta de 15");
 
 
 
+}
 }//FIN DE LA FUNCIÓN
