@@ -8,24 +8,38 @@ var eleccionMaquina;
 
 function comenzar()
 {
+    eleccionMaquina= Math.floor(Math.random()*(4-1)+1);
 	
 
 
 }//FIN DE LA FUNCIÓN
 function piedra()
 {
-    console.log("piedra")
+    piedra= 1;
+    console.log("piedra");
+    if(eleccionMaquina && piedra){ alert("gano")
+}else{ 
+    alert("perdio");
+}
+    
 	
 
 }//FIN DE LA FUNCIÓN
 function papel()
 {
-    console.log("papel")
+    papel=2;
+
+    console.log("papel");
+    if(eleccionMaquina && papel){
+        alert("gano")
+    } else { alert("perdio");
+}
 
 
 }//FIN DE LA FUNCIÓN
 function tijera()
 {
+    tijera=3;
     console.log("tijera")
 	
 
